@@ -1,0 +1,358 @@
+
+---------- 1007210.SQF
+
+---------- 3442919.SQF
+
+---------- 4422894.SQF
+
+---------- 740153.SQF
+
+---------- ACTIONS.SQF
+
+---------- ADDLICENSE.SQF
+
+---------- ADDSTORAGE.SQF
+
+---------- ANTIHACKING.SQF
+
+---------- ASSASSINATION.SQF
+
+---------- ATM.SQF
+
+---------- BAIL.SQF
+
+---------- BANKEXEC.SQF
+
+---------- BANKROB.SQF
+
+---------- BANKVARIABLES.SQF
+
+---------- BOMBS.SQF
+
+---------- BRIEFING.SQF
+
+---------- BROADCAST.SQF
+
+---------- BUYSHOP.SQF
+
+---------- CARPARKS.SQF
+
+---------- CHANGECLASS.SQF
+
+---------- CHIEF.SQF
+
+---------- CHOOSECITY.SQF
+
+---------- CIVMENU.SQF
+
+---------- CIVMENUINIT.SQF
+
+---------- CLEARTREES.SQF
+
+---------- CLIENTLOOP.SQF
+
+---------- CMD.EXE.LNK
+
+---------- CONVOYSTORAGE.SQF
+
+---------- COPCAMS.SQF
+
+---------- COPCHOPRESPAWN.SQF
+
+---------- COPMARKERS.SQF
+
+---------- COPPATROL.SQF
+
+---------- COPPRISON.SQF
+
+---------- CREATEFACITEM.SQF
+
+---------- CREATEFUNCTIONS.SQF
+
+---------- CREATEOBJECT.SQF
+
+---------- CREATESQUAD.SQF
+
+---------- CUSTOMFUNCTIONS.SQF
+
+---------- DEFUSER.SQF
+
+---------- DELIVERY.SQF
+
+---------- DESCRIPTION.EXT
+
+---------- DROP.SQF
+
+---------- DRUGPLANT.SQF
+
+---------- DRUGREPLENISH.SQF
+
+---------- DRUGS.SQF
+
+---------- DRUGSCRIPT.SQF
+
+---------- EFFECTS.SQF
+
+---------- ESCORT.SQF
+
+---------- EXECLOTTO.SQF
+
+---------- EXPORTVEHICLE.SQF
+
+---------- FACBUY.SQF
+
+---------- FACHARVEST.SQF
+[[["fishingmackerel",200]],"mackerel",15,8,["Ship"]],
+
+---------- FACMANI.SQF
+
+---------- FACQUEUE.SQF
+
+---------- FOOD.SQF
+	case "mackerel":  { _hungerStillen = 3; };
+
+---------- GANGFLAGS.SQF
+
+---------- GANGS.SQF
+
+---------- GATHERGEN.SQF
+if(_item == "mackerel")then
+	_stock = ["mackerel", (shop1 call INV_getshopnum)] call INV_getstock;
+	_stock = _stock + (["mackerel", (shop2 call INV_getshopnum)] call INV_getstock);
+	_stock = _stock + (["mackerel", (shop3 call INV_getshopnum)] call INV_getstock);
+	_stock = _stock + (["mackerel", (shop4 call INV_getshopnum)] call INV_getstock);
+
+---------- GFX.SQF
+
+---------- GIVE.SQF
+
+---------- GUNTEST.SQF
+
+---------- HANDY.SQF
+
+---------- HEADBUG.SQF
+
+---------- HIDEOUT.SQF
+
+---------- HOLSTERSCRIPT.SQF
+
+---------- HQBOMB.SQF
+
+---------- HUNTING.SQF
+
+---------- IGNITEFUEL.SQF
+
+---------- IMPOUND.SQF
+
+---------- INIT.SQF
+
+---------- INITFILENAMES.SQF
+
+---------- INITFUNCS.SQF
+
+---------- INITPLAYER.SQF
+
+---------- INITWPMISSIONS.SQF
+
+---------- INTERACT.SQF
+
+---------- INTEREST.SQF
+
+---------- INTROCAM.SQF
+
+---------- INVACTIONS.SQF
+
+---------- INVENTORY.SQF
+
+---------- INVFUNCTIONS.SQF
+
+---------- INVVARS.SQF
+
+---------- ITEMACTIONS.SQF
+
+---------- ITEMBAG.SQF
+
+---------- ITEMPROCESS.SQF
+
+---------- KEYS.SQF
+
+---------- KILLER.SQF
+
+---------- LARGEREPAIR.SQF
+
+---------- LICENSEARRAY.SQF
+
+---------- LOCALP.SQF
+
+---------- LOCKPICK.SQF
+
+---------- LOTTO.SQF
+
+---------- LOTTOACTIONS.SQF
+
+---------- LOTTOARRAYS.SQF
+
+---------- LOTTODIALOG.SQF
+
+---------- MAINDIALOGS.SQF
+
+---------- MARKERS.SQF
+
+---------- MASTERARRAY.SQF
+["mackerel",["Item", "food"],["mackerel", "Mackerel"],[300, 225], [0.5, ""], [true, true, true,false,"food.sqf"],localize "STRS_inv_item_fisch",localize "STRS_inv_item_nahrung_info", [] ], 
+
+---------- MAYOR.SQF
+
+---------- MEDKIT.SQF
+
+---------- MINE.SQF
+
+---------- MISCFUNCTIONS.SQF
+
+---------- MISSION.SQM
+			name="fishingmackerel";
+
+---------- NAMETAGS.SQF
+
+---------- NITRO.SQF
+
+---------- NOMOVE.SQF
+
+---------- NOSCRIPT.SQF
+
+---------- NOUSE.SQF
+
+---------- OBJECTDESPAWN.SQF
+
+---------- ONKEYPRESS.SQF
+
+---------- PETROLACTIONS.SQF
+
+---------- PETROLREFUEL.SQF
+
+---------- PICKUP.SQF
+
+---------- PLAYERARRAYS.SQF
+
+---------- POWER.SQF
+
+---------- PULLOUT.SQF
+
+---------- RADIO.SQF
+
+---------- RADIOJAMMER.SQF
+
+---------- RECRUITAI.SQF
+
+---------- REFUELVEH.SQF
+
+---------- REJOINCAMERA.SQF
+
+---------- REPAIR.SQF
+
+---------- RESPAWN.SQF
+
+---------- RESPAWNCAMERA.SQF
+
+---------- RESTRAIN.SQF
+
+---------- SALARIES.SQF
+
+---------- SATCAM.SQF
+
+---------- SAVEVARFUNCS.SQF
+
+---------- SEARCH.SQF
+
+---------- SETFREE.SQF
+
+---------- SETHIT.SQF
+
+---------- SETOBJECTPITCHES.SQF
+
+---------- SETPITCHBANK.SQF
+
+---------- SETTINGS.SQF
+
+---------- SHOPDIALOGS.SQF
+
+---------- SHOPFARMFACLICENSEACTIONS.SQF
+
+---------- SHOPS.SQF
+_is = ["Apples","Applepie","blowfish", "mackerel", "herring", "bass", "Bread", "rabbit", "boar", "Milk", "medikit", "handy", "lighter"];
+
+---------- SHOPTRANSACTIONS.SQF
+
+---------- SIREN.SQF
+
+---------- SIT.SQF
+
+---------- SKIPTIME.SQF
+
+---------- SKIPTIME2.SQF
+
+---------- SLAVES.SQF
+
+---------- SPEEDCAMS.SQF
+
+---------- STORAGE.SQF
+
+---------- STRFUNCS.SQF
+
+---------- STRINGTABLE.CSV
+
+---------- STUN.SQF
+
+---------- SUICIDE.SQF
+
+---------- SUPGRADE.SQF
+
+---------- SYPHON.SQF
+
+---------- TARGETS.SQF
+
+---------- TAXI.SQF
+
+---------- TEARGAS.SQF
+
+---------- TRANSACT.SQF
+
+---------- TRIGGERS.SQF
+
+---------- UNFLIPVEHICLE.SQF
+
+---------- UNRESTRAIN.SQF
+
+---------- UPS.SQF
+
+---------- USERESOURCE.SQF
+
+---------- VARIABLES.SQF
+
+---------- VCLAMMO.SQF
+
+---------- VCLARRSAVE.SQF
+
+---------- VEHDESPAWN.SQF
+
+---------- VEHICLECHECK.SQF
+
+---------- VEHINFO.SQF
+
+---------- VICTIM.SQF
+
+---------- WANTEDRELEASE.SQF
+
+---------- WEAPONBAG.SQF
+
+---------- WEAPONCONVOY.SQF
+
+---------- WEATHER.SQF
+
+---------- WEEFILE.TXT
+
+---------- WORKER.SQF
+
+---------- WORKERKILLED.SQF
+
+---------- WORKPLACESETTINGS.SQF
