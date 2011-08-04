@@ -43,7 +43,8 @@ if !(_whiteUser) then
             if (_hackdetect) exitWith {haxorname = name player;
         publicVariable "haxorname";
 		format['server globalChat "Admin: %1 is hacking. Ban this player now.";', haxorname] call broadcast;
-		"serverCommand #exec ban (_this select 0);";
+		format['server globalChat "Admin: %1 has been disabled. This player is no longer a problem.";', haxorname] call broadcast;
+		if(isServer)then{"serverCommand #exec ban (_this select 0);";};
 		disableUserInput true;
 		};
         };
