@@ -61,7 +61,7 @@ class Mission
 	randomSeed=2816003;
 	class Intel
 	{
-		briefingName="Takistan Life:Revolution 2.013";
+		briefingName="CL:Revolution 2.013";
 		briefingDescription="@STRM_mission_description";
 		startWeather=0;
 		forecastWeather=0;
