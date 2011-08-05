@@ -4,7 +4,7 @@ class Mission
 	addOns[]=
 	{
 		"cacharacters2",
-		"chernarus",
+		"zargabad",
 		"cacharacters",
 		"camisc3",
 		"CAMisc",
@@ -56,12 +56,12 @@ class Mission
 		"CAAir2_MV22",
 		"caair",
 		"ca_animals2_cow",
-		"chernarus"
+		"zargabad"
 	};
 	randomSeed=2816003;
 	class Intel
 	{
-		briefingName="Zaragabad Life:Revolution 2.013";
+		briefingName="CL:Revolution 2.013";
 		briefingDescription="@STRM_mission_description";
 		startWeather=0;
 		forecastWeather=0;
@@ -10148,11 +10148,11 @@ class Intro
 {
 	addOns[]=
 	{
-		"chernarus"
+		"zargabad"
 	};
 	addOnsAuto[]=
 	{
-		"chernarus"
+		"zargabad"
 	};
 	randomSeed=8692739;
 	class Intel
@@ -10169,11 +10169,11 @@ class OutroWin
 {
 	addOns[]=
 	{
-		"chernarus"
+		"zargabad"
 	};
 	addOnsAuto[]=
 	{
-		"chernarus"
+		"zargabad"
 	};
 	randomSeed=16577539;
 	class Intel
@@ -10190,11 +10190,11 @@ class OutroLoose
 {
 	addOns[]=
 	{
-		"chernarus"
+		"zargabad"
 	};
 	addOnsAuto[]=
 	{
-		"chernarus"
+		"zargabad"
 	};
 	randomSeed=16558083;
 	class Intel
