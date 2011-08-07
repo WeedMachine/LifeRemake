@@ -23,6 +23,7 @@ class Mission
 		"caweapons_kord",
 		"caweapons_warfare_weapons",
 		"warfarebuildings",
+		"CAWheeled2_VWGolf",
 		"CAWheeled2_Kamaz",
 		"castructures_rail",
 		"shed_wooden",
@@ -73,7 +74,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=196;
+		items=197;
 		class Item0
 		{
 			side="LOGIC";
@@ -4459,7 +4460,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={6826.4619,15.63747,2390.4993};
+					position[]={6827.6089,16.3002,2389.6147};
 					azimut=270;
 					id=554;
 					side="CIV";
@@ -4488,6 +4489,25 @@ class Mission
 					skill=0.60000002;
 					text="hdrugsell";
 					init="call compile ""[""""light"""", this, 0.1] execvm """"effects.sqf"""";""; this disableAI ""move""; this disableAI ""anim""; this allowdamage false;this setpos [getpos this select 0, getpos this select 1, (getpos this select 2) - 0.01];";
+				};
+			};
+		};
+		class Item196
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={6437.8169,15.492651,3050.967};
+					azimut=-2152.96;
+					id=577;
+					side="LOGIC";
+					vehicle="Logic";
+					leader=1;
+					skill=0.60000002;
+					text="playerhood";
 				};
 			};
 		};
@@ -8274,7 +8294,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=187;
+		items=188;
 		class Item0
 		{
 			position[]={6855.6133,45.861252,2496.7146};
@@ -9782,7 +9802,7 @@ class Mission
 		};
 		class Item164
 		{
-			position[]={6826.3477,15.580526,2390.4639};
+			position[]={6827.7231,16.374458,2389.4165};
 			name="markler";
 			text="House Shop";
 			type="mil_flag";
@@ -9977,6 +9997,16 @@ class Mission
 			name="patrolpoint13";
 			type="Empty";
 			colorName="ColorBlue";
+		};
+		class Item187
+		{
+			position[]={6434.9141,14.675276,3031.4565};
+			name="Neighborhood";
+			text="Neighborhood";
+			type="mil_box";
+			colorName="ColorWhite";
+			a=0.69999999;
+			b=0.69999999;
 		};
 	};
 	class Sensors
