@@ -18,6 +18,8 @@ INV_itemstocks =
 
 //Airshop
 [5,2,10],
+//House Shop
+[20,20],
 
 [10,-1,10,-1,10,-1,10,-1],
 
@@ -85,6 +87,8 @@ INV_itemmaxstocks =
 
 //Airshop
 [5,2,10],
+//House Shop
+[20,20],
 
 [20,-1,20,-1,20,-1,20,-1],
 
@@ -138,6 +142,7 @@ _emptyshop = [];
 _fs = ["Fuelline", "kanister", "kleinesreparaturkit", "reparaturkit"];
 _is = ["Apples","Applepie","blowfish", "mackerel", "herring", "bass", "Bread", "rabbit", "boar", "Milk", "medikit", "handy", "lighter"];
 _as = ["Mi17_Civilian","Mi17_medevac_CDF","MV22"];
+_hs = ["house","house2"];
 _gs = ["M9", "Rnd_9x19_M9", "Colt1911", "Rnd_45ACP_1911", "Saiga12K", "Rnd_B_Saiga12_74Slug", "Huntingrifle", "x_22_LR_17_HMR"];
 _es = ["lockpick", "Binocular", "NVGoggles", "GPS"];
 _cu = ["nitro", "supgrade1", "supgrade2", "supgrade3", "supgrade4", "supgrade5"];
@@ -316,6 +321,7 @@ INV_ItemShops = [
 [shop4,"Item Shop",dummyobj,dummyobj,_is,_is,true],
 
 [airshop,"Air Shop",dummyobj,asairspawn,_as,_as,true],
+[markler,"House Shop",dummobj,dummyobj,_hs,_hs,true],
 
 [gunshop1,"Gun Shop",gunbox1,dummyobj,_gs,_gs,true],
 

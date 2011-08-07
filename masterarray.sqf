@@ -440,6 +440,10 @@ INV_AlleItemsArray = [
 
 ["lockpick", ["Item", "carobjects"],["Dietrich", "Lockpick"], [500, 3750], [0.5, "", "patrol_training"],[true,true,true, false, "lockpick.sqf"],localize "STRS_item_lockpick",localize "STRS_item_lockpick_info", [["stahl", 1]] ],
 
+["House",["Item", "misc"],["House", "House"],[800000, 400000], [60, ""], [false, true, false,false,"house.sqf"],localize "STRS_item_hideout",localize "STRS_item_hideout_info", [] ],
+
+["House2",["Item", "misc"],["House2", "Small House"],[400000, 200000], [60, ""], [false, true, false,false,"house2.sqf"],localize "STRS_item_hideout",localize "STRS_item_hideout_info", [] ],
+
 ["gasmask", ["Item", "misc"], ["gasmask", "Gas mask"],[5000, 3750], [2, "terrorist", "response_training"],[true,true,true, false, "nouse.sqf"], localize "STRS_item_gasmask", localize "STRS_item_gasmask_info",[["plastik", 3]] ],
 
 ["Shovel", ["Item", "misc"], ["Shovel", "Shovel"],[500, 3750], [5, "", ""],[true,true,true, false, "mine.sqf"], "Shovel", "Use it in a mining area. Durability: 20 Mining speed: slow",[["holz", 2]] ],
