@@ -122,3 +122,12 @@ _role addaction ["Chernogorsk Merchant","shopdialogs.sqf",[4],1,false,true,"","p
 _role addaction ["Elektrozavodsk Merchant","shopdialogs.sqf",[5],1,false,true,"","player distance shop2export <= 3"];
 _role addaction ["Balota Merchant","shopdialogs.sqf",[6],1,false,true,"","player distance shop3export <= 3"];
 _role addaction ["Kamyshovo Merchant","shopdialogs.sqf",[7],1,false,true,"","player distance shop4export <= 3"];
+
+if !isNil "actionTyre" then { player removeAction actionTyre; actionTyre = nil; };
+	actionTyre = player addAction ["Change tyre","common\client\actions\noScript.sqf","[] spawn changeTyre",1,false,true,"",'
+		_cT = cursorTarget;
+		if !isNull _cT then { 
+			if !(typeOf _cT in westVehicleClasses) exitWith {};
+			alive _cT && !canMove _cT && _cT call getTyre != "";
+		};
+	']; 
