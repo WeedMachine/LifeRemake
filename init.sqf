@@ -4,7 +4,7 @@ EAST setFriend [WEST, 1];
 version        	= "1.01";
 compatible     	= 102;
 internDebug    	= false;
-debug          	= false;
+debug          	= true;
 addonversion   	= false;
 dedicatedServer = false;
 copscount      	= 10;
